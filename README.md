@@ -1,6 +1,6 @@
 # JS-CharacterCreator - created with Three JS and DAT.GUI
 
-## Gothic 2 Character Creator - created to allow personalization of the character on the roleplay server for the game Gothic. Commercial project, public repository is LITE version. All models and textured are allowed here according to the g2mdk license.
+## Gothic 2 Character Creator - created to allow personalization of the character on the roleplay server for the game Gothic. Commercial project, public repository is LITE version. All models and textures are allowed here according to the g2mdk license.
 
 A commercial project created for a roleplay server to allow players to create characters for the game. The design includes a total of more than 2000 textures and more than 30 different head models. All assets were prepared manually using g2mdk, blender and photshop tools.
 
