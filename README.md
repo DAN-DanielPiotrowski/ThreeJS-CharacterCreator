@@ -17,5 +17,5 @@ Instruction:
 1. Clone this repository to your computer.
 2. Download assets and extract them folder with repository.
 3. Open project with Visual Studio Code and install live server extension.
-4. (Optional) If you dont wan't to, you can as well use xampp.
+4. (Optional) If you dont want to, you can as well use xampp.
 5. Enjoy!
