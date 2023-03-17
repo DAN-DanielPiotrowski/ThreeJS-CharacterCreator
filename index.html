@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kreator postaci</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="contrender"><canvas class="webgl"></canvas></div>
+    </div>
+    <div class="containerr">
+      <div class="menu-toggle">
+        <span class="fa fa-plus"></span>
+      </div>
+
+      <div class="menu-round">
+        <div class="btn-app">
+          <button class="fa fa-venus" id="changeSexWoman"></button>
+        </div>
+        <div class="btn-app red">
+          <div class="fa fa-rotate-right"></div>
+        </div>
+        <div class="btn-app green">
+          <div class="fa fa-check"></div>
+        </div>
+      </div>
+
+      <div class="menu-line">
+        <div class="btn-app">
+          <button class="fa fa-mars" id="changeSexMan"></button>
+        </div>
+        <div class="btn-app">
+          <button class="fa fa-child" id="prevBodyTexture"></button>
+        </div>
+        <div class="btn-app">
+          <button class="fa fa-child" id="nextBodyTexture"></button>
+        </div>
+        <div class="btn-app">
+          <button class="fa fa-head-side-mask" id="prevFaceModel"></button>
+        </div>
+        <div class="btn-app">
+          <button class="fa fa-head-side-mask" id="nextFaceModel"></button>
+        </div>
+        <div class="btn-app">
+          <button class="fa fa-face-smile" id="prevFaceTexture"></button>
+        </div>
+        <div class="btn-app">
+          <button class="fa fa-face-smile" id="nextFaceTexture"></button>
+        </div>
+      </div>
+    </div>
+    <div class="stats-section">
+      <h1>Postać</h1>
+      <form>
+        Tekstura Twarzy:
+        <input type="number" value="0" min="0" max="230" id="faceTexture" />
+        <p id="headModel">Model Głowy: 0 [Męska]</p>
+        Tekstura Ciała:
+        <input type="number" value="0" min="0" max="60" id="bodyTexture" />
+        <p id="characterSex">Płeć: ♂</p>
+      </form>
+    </div>
+    <footer>
+      <ul>
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+      </ul>
+    </footer>
+    <script type="module" src="characterCreator.js"></script>
+  </body>
+</html>
